@@ -1,5 +1,5 @@
-import frontendImg from "../assets/experience_logo/full.stack.webp";
-import backendImg from "../assets/experience_logo/backend-logo.jpg";
+import frontendImg from "../../assets/experience_logo/full.stack.webp";
+import backendImg from "../../assets/experience_logo/backend-logo.jpg";
 
 const experiences = [
   {
