@@ -32,7 +32,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import mysteryImg from "./assets/work_logo/mystery-message.jpg";
-import jobPortalImg from "./assets/work_logo/job-portal-1.jpg";
+import jobPortalImg from "./assets/work_logo/job-Portal-1.jpg";
 import uiuxImg from "./assets/work_logo/UI-UX.jpg";
 
 
