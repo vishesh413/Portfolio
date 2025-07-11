@@ -1,12 +1,14 @@
+import frontendImg from "../assets/experience_logo/full.stack.webp";
+import backendImg from "../assets/experience_logo/backend-logo.jpg";
 
 const experiences = [
   {
     id: 1,
-    role: "Frontend developement",
+    role: "Frontend Development",
     company: "Learned through Projects & Practice",
     date: "2025 - Present",
-    desc: "Focused on frontend development using React, HTML, CSS, and JavaScript. Built responsive and clean user interfaces with attention to detail and a passion for creating smooth UI and interactive web experiences",
-    img: "/src/assets/experience_logo/full.stack.webp",
+    desc: "Focused on frontend development using React, HTML, CSS, and JavaScript. Built responsive and clean user interfaces with attention to detail and a passion for creating smooth UI and interactive web experiences.",
+    img: frontendImg, 
     skills: ["React", "Node.js", "MongoDB", "Express", "REST APIs", "Tailwind CSS"],
   },
   {
@@ -14,11 +16,12 @@ const experiences = [
     role: "MERN Stack (Backend)",
     company: "Self Learned",
     date: "2025 - Present",
-    desc: "Explored backend development in the MERN stack. Worked on building APIs, adding authentication, and connecting with MongoDB to understand how backend systems work",
-    img: "/src/assets/experience_logo/backend-logo.jpg",
+    desc: "Explored backend development in the MERN stack. Worked on building APIs, adding authentication, and connecting with MongoDB to understand how backend systems work.",
+    img: backendImg,
     skills: ["Node.js", "Express", "JWT", "MongoDB", "Mongoose", "Postman"],
   },
 ];
+
 
 
 const Experience = () => {

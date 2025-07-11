@@ -19,7 +19,6 @@ import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -32,6 +31,9 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import mysteryImg from "../assets/work_logo/mystery message .jpg";
+import jobPortalImg from "../assets/work_logo/job-portal-1.jpg";
+import uiuxImg from "../assets/work_logo/UI-UX.jpg";
 
 
 export const SkillsInfo = [
@@ -83,35 +85,34 @@ export const SkillsInfo = [
 ];
   
   export const projects = [
-    {
-      id: 0,
-      title: "Mystery-Threads",
-      description:
-        "An anonymous message-sharing platform with a stylish UI and secure backend. Users can share and receive messages without revealing their identity. Built with Next.js and MongoDB.",
-      image: "src/assets/work_logo/mystery message .jpg",
-      tags: ["React.js", "Node.js", "MongoDB", "Express", "Next.js", "HTML", "CSS", "TypeScript"],
-      github: "https://github.com/vishesh413/Mystery-threads.git",
-      webapp: "https://mystery-threads.vercel.app/",
-    },
-    {
-      id: 1,
-      title: "Job Portal",
-      description:
-        "A complete MERN stack job portal where users can search and apply for jobs, and recruiters can post new job openings. Includes authentication and role-based dashboard.",
-      image: "src/assets/work_logo/job-portal-1.jpg",
-      tags: ["HTML", "tailwind CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/vishesh413/JobPortal.git",
-      webapp: "https://jobportal-1-ahac.onrender.com",
-    },
-    {
-      id: 2,
-      title: "UI-UX Project",
-      description:
-        "A creative UI/UX design portfolio highlighting modern web design and animation techniques. Developed using Next.js, Tailwind CSS, and Framer Motion for smooth transitions.",
-      image: "src/assets/work_logo/UI-UX.jpg",
-      tags: ["HTML", "tailwind CSS", "TypeScript", "Next.js"],
-      github: "https://github.com/vishesh413/ui-ux-project.git",
-      webapp: "https://ui-ux-project-olive.vercel.app/",
-    },
-    
-  ];
+  {
+    id: 0,
+    title: "Mystery-Threads",
+    description:
+      "An anonymous message-sharing platform with a stylish UI and secure backend. Users can share and receive messages without revealing their identity. Built with Next.js and MongoDB.",
+    image: mysteryImg, // ✅ imported image
+    tags: ["React.js", "Node.js", "MongoDB", "Express", "Next.js", "HTML", "CSS", "TypeScript"],
+    github: "https://github.com/vishesh413/Mystery-threads.git",
+    webapp: "https://mystery-threads.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Job Portal",
+    description:
+      "A complete MERN stack job portal where users can search and apply for jobs, and recruiters can post new job openings. Includes authentication and role-based dashboard.",
+    image: jobPortalImg, // ✅
+    tags: ["HTML", "tailwind CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/vishesh413/JobPortal.git",
+    webapp: "https://jobportal-1-ahac.onrender.com",
+  },
+  {
+    id: 2,
+    title: "UI-UX Project",
+    description:
+      "A creative UI/UX design portfolio highlighting modern web design and animation techniques. Developed using Next.js, Tailwind CSS, and Framer Motion for smooth transitions.",
+    image: uiuxImg, // ✅
+    tags: ["HTML", "tailwind CSS", "TypeScript", "Next.js"],
+    github: "https://github.com/vishesh413/ui-ux-project.git",
+    webapp: "https://ui-ux-project-olive.vercel.app/",
+  },
+];
